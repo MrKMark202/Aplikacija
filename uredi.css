@@ -1,31 +1,58 @@
 body
 {
-    /*background-color: rgb(77, 153, 0);*/
-    background-image: url(https://wallpaper.dog/large/17141433.jpg)
+    background-image: url(https://wallpaper.dog/large/17141433.jpg);
 }
 
 .naslov
 {
-    padding: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    font-size: 95px;
+    font-size: 90px;
     color: aliceblue;
-    
+    margin-bottom: 50px;
 }
 
 .podnaslovne_stvari 
 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     color: white;
 }
 
-.linkovi
+.link_index
 {
     font-size: 25px;
     margin-left: 30px;
     margin-top: 30px;
     color: white;
-    
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.link_o_nama
+{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 15px;
+    color: white;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.link_kreiraj_klub
+{
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 15px;
+    color: white;
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .a
@@ -35,8 +62,59 @@ body
 
 .o_nama
 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
     text-align: center;
     color: white;
-    
+}
+
+.paragrafi
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.kklasa
+{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.podaci_klub
+{
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+}
+
+.klub
+{
+    height: 30px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.klub_slika
+{
+    height: 30px;
+    font-size: 30px;
+    padding: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.k_klub
+{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    background-color: darkorange;
 }
