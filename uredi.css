@@ -1,6 +1,8 @@
 body
 {
     background-image: url(https://wallpaper.dog/large/17141433.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
 .naslov
